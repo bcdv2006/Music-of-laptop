@@ -1,0 +1,227 @@
+<Project Name="FileMerger" Version="1.0.0">
+    <Setting>
+        <Body ChipSeries="GPC3" SystemClock="8000000" />
+    </Setting>
+    <UI>
+        <FileFilter Value="*.adp|*.a16|*.a18|*.a34|*.a36|*.a48|*.a64|*.s20|*.s32|*.s48|*.s53|*.s72|*.s88|*.sp4|*.sp5|*.se4|*.se5|*.AM2|*.AM3|*.AM4|*.AM5|*.pcm|*.ref|*.spp|*.spa|*.drm|*.geo|*.ima|*.wav|*.mp3|*.equ|*.bin" />
+        <Recursive Value="0" />
+        <AllFileType Value="*.adp|*.a16|*.a18|*.a34|*.a36|*.a48|*.a64|*.s20|*.s32|*.s48|*.s53|*.s72|*.s88|*.sp4|*.sp5|*.se4|*.se5|*.AM2|*.AM3|*.AM4|*.AM5|*.pcm|*.ref|*.spp|*.spa|*.drm|*.geo|*.ima|*.wav|*.mp3|*.equ|*.bin|*.*" />
+        <BinVersion Value="1" />
+        <SourceFolder Source="D:\LAPTOP\MERGE" />
+        <BinFile Source="D:\LAPTOP\MERGE\ROM_13012018.bin" />
+        <IncFile Source="D:\LAPTOP\MERGE\FileMerger_13012018.inc" />
+        <HFile Source="D:\LAPTOP\MERGE\FileMerger_13012018.h" />
+        <EnableUserBinFile Value="0" />
+        <UserBinFile Source="C:\Program Files (x86)\Generalplus\G+ Gadget 1.1.3\UserData.bin" />
+        <RecordFile Source="C:\Program Files (x86)\Generalplus\G+ Gadget 1.1.3\ROM_Address.bin" />
+        <BodyFile Source="./PreLoadValueBodyMapping.ini" />
+        <ByteOrder Value="0" />
+        <Flag64Bit Value="0" />
+        <ResourceNo Value="1" />
+        <ReservedBytes Value="740" />
+        <AddressOffset Value="0" />
+        <Add8BytesHead_Version1 Value="0" />
+        <Add8BytesHead_Version2 Value="1" />
+        <Add8BytesHead Value="0" />
+        <MergeAddressTable Value="1" />
+        <FillData Value="0xFF" />
+        <BinFileSize Value="16M" />
+        <CheckSumAlgorithm Value="1" />
+        <GroupNameFormat Value="%N" />
+        <GroupAddrFormat Value="%N_Addr" />
+        <FileNameFormat Value="%n" />
+        <FileAddrFormat Value="%n_Addr" />
+        <OutputAddr Value="1" />
+        <OutputIndex Value="1" />
+        <Reserved32ByteHead Value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" />
+    </UI>
+    <Resource>
+        <ResGroup Name="Group_Table" Type="0" />
+        <File Name="Z-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\Z-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="Z-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\Z-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="Y-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\Y-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="Y-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\Y-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="Y-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\Y-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="Y-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\Y-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="X-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\X-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="X-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\X-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="X-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\X-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="X-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\X-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="W-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\W-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="W-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\W-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="VIETNAMESE_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\VIETNAMESE_16K_WAV.a48" GroupIndex="0" />
+        <File Name="V-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\V-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="V-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\V-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="V-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\V-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="V-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\V-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="U1-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\U1-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="U1-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\U1-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="U-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\U-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="U-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\U-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="U-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\U-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="U-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\U-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="TheWordMode_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\TheWordMode_16K_WAV.a48" GroupIndex="0" />
+        <File Name="TheSongMode_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\TheSongMode_16K_WAV.a48" GroupIndex="0" />
+        <File Name="ThePianoMode_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\ThePianoMode_16K_WAV.a48" GroupIndex="0" />
+        <File Name="TheNumberMode_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\TheNumberMode_16K_WAV.a48" GroupIndex="0" />
+        <File Name="TheColorMode_16K_wav.a48" Source="D:\LAPTOP\DECODED\A4800-36000\TheColorMode_16K_wav.a48" GroupIndex="0" />
+        <File Name="TheAlphabetMode_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\TheAlphabetMode_16K_WAV.a48" GroupIndex="0" />
+        <File Name="TAT_NGUON_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\TAT_NGUON_16K_WAV.a48" GroupIndex="0" />
+        <File Name="T-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\T-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="T-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\T-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="T-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\T-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="T-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\T-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="SONG8_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\SONG8_16K_WAV.a48" GroupIndex="0" />
+        <File Name="SONG7_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\SONG7_16K_WAV.a48" GroupIndex="0" />
+        <File Name="SONG6_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\SONG6_16K_WAV.a48" GroupIndex="0" />
+        <File Name="SONG4_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\SONG4_16K_WAV.a48" GroupIndex="0" />
+        <File Name="SONG9_16K_wav.a48" Source="D:\LAPTOP\DECODED\A4800-36000\SONG9_16K_wav.a48" GroupIndex="0" />
+        <File Name="SONG2_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\SONG2_16K_WAV.a48" GroupIndex="0" />
+        <File Name="SONG1_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\SONG1_16K_WAV.a48" GroupIndex="0" />
+        <File Name="S-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\S-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="S-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\S-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="S-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\S-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="S-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\S-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="R-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\R-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="R-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\R-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="R-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\R-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="R-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\R-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="Q-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\Q-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="Q-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\Q-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="Q-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\Q-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="Q-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\Q-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="PIANO-G1_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\PIANO-G1_16K_WAV.a48" GroupIndex="0" />
+        <File Name="PIANO-F1_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\PIANO-F1_16K_WAV.a48" GroupIndex="0" />
+        <File Name="PIANO-E1_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\PIANO-E1_16K_WAV.a48" GroupIndex="0" />
+        <File Name="PIANO-D1_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\PIANO-D1_16K_WAV.a48" GroupIndex="0" />
+        <File Name="PIANO-C2_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\PIANO-C2_16K_WAV.a48" GroupIndex="0" />
+        <File Name="PIANO-C1_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\PIANO-C1_16K_WAV.a48" GroupIndex="0" />
+        <File Name="PIANO-B2_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\PIANO-B2_16K_WAV.a48" GroupIndex="0" />
+        <File Name="PIANO-B1_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\PIANO-B1_16K_WAV.a48" GroupIndex="0" />
+        <File Name="PIANO-A2_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\PIANO-A2_16K_WAV.a48" GroupIndex="0" />
+        <File Name="PIANO-A1_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\PIANO-A1_16K_WAV.a48" GroupIndex="0" />
+        <File Name="P-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\P-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="P-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\P-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="P-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\P-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="P-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\P-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="O2-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\O2-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="O2-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\O2-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="O1-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\O1-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="O1-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\O1-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="O-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\O-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="O-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\O-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="O-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\O-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="O-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\O-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="N-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\N-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="N-TU-VN-WAV_16K_wav.a48" Source="D:\LAPTOP\DECODED\A4800-36000\N-TU-VN-WAV_16K_wav.a48" GroupIndex="0" />
+        <File Name="N-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\N-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="N-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\N-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-XANHLA-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-XANHLA-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-XANHLA-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-XANHLA-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-XANHDUONG-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-XANHDUONG-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-XANHDUONG-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-XANHDUONG-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-VANG-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-VANG-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-VANG-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-VANG-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-TRANG-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-TRANG-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-TRANG-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-TRANG-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-TIM-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-TIM-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-TIM-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-TIM-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-NAU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-NAU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-NAU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-NAU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-HONG-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-HONG-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-HONG-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-HONG-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-DO-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-DO-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-DO-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-DO-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-DEN-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-DEN-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-DEN-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-DEN-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-CAM-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-CAM-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="MAU-CAM-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\MAU-CAM-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="M-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\M-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="M-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\M-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="M-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\M-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="M-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\M-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="L-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\L-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="L-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\L-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="L-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\L-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="L-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\L-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="K-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\K-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="K-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\K-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="K-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\K-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="K-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\K-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="J-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\J-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="J-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\J-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="I-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\I-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="I-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\I-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="I-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\I-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="I-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\I-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="HIEU_UNG_1_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\HIEU_UNG_1_16K_WAV.a48" GroupIndex="0" />
+        <File Name="H-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\H-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="H-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\H-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="H-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\H-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="H-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\H-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="G-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\G-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="G-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\G-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="G-TU-EN_16K_wav.a48" Source="D:\LAPTOP\DECODED\A4800-36000\G-TU-EN_16K_wav.a48" GroupIndex="0" />
+        <File Name="G-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\G-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="F-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\F-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="F-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\F-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="ENGLISH_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\ENGLISH_16K_WAV.a48" GroupIndex="0" />
+        <File Name="E1-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\E1-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="E1-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\E1-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="E-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\E-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="E-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\E-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="E-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\E-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="E-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\E-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="D1-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\D1-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="D1-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\D1-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="D-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\D-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="D-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\D-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="D-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\D-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="D-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\D-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="ChuDeTuVung_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\ChuDeTuVung_16K_WAV.a48" GroupIndex="0" />
+        <File Name="ChuDeSoDiem_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\ChuDeSoDiem_16K_WAV.a48" GroupIndex="0" />
+        <File Name="ChuDeMauSac_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\ChuDeMauSac_16K_WAV.a48" GroupIndex="0" />
+        <File Name="ChuDeDanPiano_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\ChuDeDanPiano_16K_WAV.a48" GroupIndex="0" />
+        <File Name="ChuDeBangChuCai_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\ChuDeBangChuCai_16K_WAV.a48" GroupIndex="0" />
+        <File Name="ChuDeBaiHat_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\ChuDeBaiHat_16K_WAV.a48" GroupIndex="0" />
+        <File Name="CHAO_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\CHAO_16K_WAV.a48" GroupIndex="0" />
+        <File Name="C-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\C-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="C-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\C-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="C-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\C-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="C-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\C-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="B-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\B-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="B-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\B-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="B-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\B-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="B-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\B-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="A2-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\A2-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="A1-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\A1-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="A1-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\A1-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="A2-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\A2-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="A-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\A-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="A-TU-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\A-TU-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="A-TU-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\A-TU-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="A-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\A-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="9-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\9-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="9-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\9-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="8-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\8-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="8-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\8-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="7-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\7-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="7-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\7-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="6-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\6-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="6-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\6-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="5-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\5-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="5-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\5-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="4-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\4-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="4-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\4-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="3-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\3-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="3-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\3-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="2-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\2-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="2-EN_16k_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\2-EN_16k_WAV.a48" GroupIndex="0" />
+        <File Name="10-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\10-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="10-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\10-EN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="1-VN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\1-VN_16K_WAV.a48" GroupIndex="0" />
+        <File Name="1-EN_16K_WAV.a48" Source="D:\LAPTOP\DECODED\A4800-36000\1-EN_16K_WAV.a48" GroupIndex="0" />
+    </Resource>
+    <EquationTable />
+    <CustomFormat />
+</Project>
